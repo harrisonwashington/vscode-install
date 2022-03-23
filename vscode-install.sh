@@ -1,6 +1,6 @@
 #!bin/bash
 # Update the package index and install the dependencies
-sudo apt update&&apt update
+sudo apt update&&apt upgrade
 sudo apt install software-properties-common apt-transport-https wget
 # Import the Microsoft GPG key
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
