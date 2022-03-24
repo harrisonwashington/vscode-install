@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 # Update the package index and install the dependencies
 sudo apt update&&apt upgrade
 sudo apt install software-properties-common apt-transport-https wget
