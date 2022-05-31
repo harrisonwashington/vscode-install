@@ -1,7 +1,7 @@
 #!/bin/bash
 # Update package index and install the necessary dependencies
 sudo apt update && apt upgrade -y 
-sudo apt install software-properties-common apt-transport-https wget
+sudo apt install software-properties-common apt-transport-https wget -y
 # Import the Microsoft GPG key
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 # Enable the Visual Studio Code repository
