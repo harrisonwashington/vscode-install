@@ -13,7 +13,6 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 
 # Visual Studio Code Deb file install with wget & package update
 wget https://code.visualstudio.com/docs/?dv=linux64_deb
-sudo apt update
 
 # Visual Studio Code apt install
 sudo apt install code
